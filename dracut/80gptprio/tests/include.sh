@@ -1,6 +1,5 @@
 #!/bin/sh -e
 
-root="gptprio:"
 BOOTENGINE_MNT_DIR="./mnt"
 
 create_kernel_file() {

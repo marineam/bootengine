@@ -17,7 +17,9 @@ warn() {
 }
 
 getarg() {
-    return 0
+    if [ "$1" = usr= ]; then
+        echo "gptprio:"
+    fi
 }
 
 _mounted=0

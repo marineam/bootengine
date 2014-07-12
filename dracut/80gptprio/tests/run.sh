@@ -9,5 +9,7 @@ for i in test-*.sh; do
 	echo -e "\n"
 done
 
+./generator-testsuite.sh
+
 echo SUCCESS
 exit 0
